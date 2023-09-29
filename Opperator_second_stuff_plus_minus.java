@@ -1,3 +1,4 @@
+//Compund assignment 
 class Main {
   public static void main(String[] args) {
    
@@ -11,7 +12,7 @@ class Main {
       System.out.println(t);
     
     int x=5;
-      x=x*4;
+      x-=4;
     System.out.println(x);
     
     int z=34;
