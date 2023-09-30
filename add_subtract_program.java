@@ -5,7 +5,7 @@ class Main {
     a=7; //initialization
   int x=7; 
   int y=2;
-    
+    //Arithmatic operators
     System.out.print(x+y);
     System.out.println("");
     System.out.println(x*y);
