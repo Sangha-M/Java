@@ -3,6 +3,7 @@ class Main {
 
     int x=25; 
     if(x>30)
+      //nested if else statament 
     {
       System.out.println(x+ " Is greater than 30");
     }
@@ -19,9 +20,13 @@ class Main {
               System.out.println(x+ " is greater than 10");
             } 
 
-
-    System.out.print("hi"):
-      System.out.println("bye"):
-    
+/*
+          int y=32
+            if(y!=5)
+            {
+            System.out.println(y+" is not 5");
+            }
+    //if else statement 
+    */
   }
 }
