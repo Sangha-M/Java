@@ -26,7 +26,7 @@ class Main {
             {
             System.out.println(y+" is not 5");
             }
-    //if else statement 
+    //if else statement, this above stement withhin the coments is only a if else stament 
     */
   }
 }
