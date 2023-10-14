@@ -129,8 +129,13 @@ if (num1==15)
 }
 */
 
-//Part B 
-//Question 1
+
+
+
+
+
+
+//Assignment Part B, Question 1
 
 /* import java.util.Scanner;
 
@@ -204,7 +209,9 @@ if(n.equals("Calgary"))
 }
 */
 
-/*//take home assignment part b, number 2
+
+//Assignment Part B, Question 2
+/*
 import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
@@ -251,7 +258,7 @@ class Main {
 
 
 
-//take home assignment part b, number 3
+//Assignment Part B, Question 3
 /*import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
@@ -333,6 +340,87 @@ class Main {
    
 
 
+   //closes the scanner
+    input.close();
+  }
+}
+*/
+
+//Part B, Question 5
+/*
+import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+
+
+      Scanner input=new Scanner(System.in); 
+
+    System.out.println("Lets play Rock, Paper, Scissors!    What does player one chose ");
+    String x = input.nextLine();
+    System.out.println("What does player two choose? ");
+    String y = input.nextLine();
+    //conditional statement(if statemnt)
+    //This will print out a message depending on who wins or loses the game of rock paper scissors
+    if(x.equals("Rock") && y.equals("Scissors")){
+      System.out.println("player one wins");
+    }
+   else if (x.equals("Paper") && y.equals("Rock")){
+     System.out.println("player One wins"); 
+   }
+    else if(x.equals("Scissors") && y.equals("Paper")){
+      System.out.println("Player one wins");
+    }
+    else if (x.equals("Scissors") && y.equals("Rock")){
+      System.out.println("Player Two Wins");
+    }
+    else if(x.equals("Rock") && y.equals("Paper")){
+        System.out.println("Player Two wins");
+      }
+    else if(x.equals("Paper") && y.equals("Scissors")){
+      System.out.println("Player Two wins");
+    }
+    else {
+      System.out.println("it is a draw");
+    }
+   
+
+
+   //closes the scanner
+    input.close();
+  }
+}
+*/
+
+//Part B, Question 6
+/*import java.util.Scanner;
+class Main {
+  public static void main(String[] args) {
+
+
+      Scanner input=new Scanner(System.in); 
+
+    System.out.println("Choose a Language, E- English, F-French, Es-Spanish, L-Latin, P-Punjabi, etc. ");
+    String x = input.nextLine();
+    //conditional statement(if statemnt)
+    //This will print out a message depending on who wins or loses the game of rock paper scissors
+    if(x.equals("E")){
+      System.out.println("Hello");
+    }
+   else if (x.equals("P")){
+     System.out.println("ਹਾਜੀ"); 
+   }
+    else if(x.equals("F")){
+      System.out.println("Salut");
+    }
+    else if (x.equals("Es")){
+      System.out.println("Hola");
+    }
+    else if(x.equals("L")){
+        System.out.println("Salve");
+      }
+    else{
+      System.out.println("We solemely apologize for not having your language available");
+    }
    //closes the scanner
     input.close();
   }
